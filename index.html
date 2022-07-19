@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body class="container-fluid mt-4 bg-dark d-flex justify-content-center">
+    <div class="form border border-2 border-white" style="width: 500px;">
+        <div class="form-header text-center" style="background-color: gold; font-weight: bold; height: 50px; font-size: 20px;">
+            Sign Up
+        </div>
+
+        <div class="form-body mt-2 row ">
+            <div class="d-flex align-items-center">
+                <span class="col-3 ms-2" style="color: rgb(185, 155, 5);">First Name</span>
+                <input type="text" class="col-8 form-control " placeholder="Enter First Name..." style="width: 350px;">
+            </div>
+            <div class="d-flex align-items-center mt-2">
+                <span class="col-3 ms-2" style="color: rgb(185, 155, 5);">Last Name</span>
+                <input type="text" class="col-8 form-control " placeholder="Enter Last Name..." style="width: 350px;">
+            </div>
+            <div class="d-flex align-items-center mt-2">
+                <span class="col-3 ms-2" style="color: rgb(185, 155, 5);">Screen Name</span>
+                <input type="text" class="col-8 form-control " placeholder="Enter Screen Name..." style="width: 350px;">
+            </div>
+            <div class="d-flex align-items-center mt-2">
+                <span class="col-3 ms-2" style="color: rgb(185, 155, 5);">Date of Birth</span>
+                <input type="text" class="form-control me-2" list="item" style="width: 150px;" placeholder="Enter Month">
+                <datalist id="item">
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </datalist>
+                <input type="text" class="form-control me-2" style="width: 80px;" placeholder="Date" list="date">
+                <datalist id="date">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </datalist>
+                <input type="text" class="form-control" style="width: 103px;" placeholder="Year" list="year">
+                <datalist id="year">
+                    <option>1991</option>
+                    <option>1992</option>
+                    <option>1993</option>
+                    <option>1994</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                    <option>1998</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                </datalist>
+            </div>
+            <div class="d-flex align-items-center mt-2">
+                <span class="col-3 ms-2" style="color: rgb(185, 155, 5);">Gender</span>
+                <span style="color: rgb(185, 155, 5);" class="me-4"><input type="checkbox" class="form-checkbox" value="gender" checked>Male</span>
+                <span style="color: rgb(185, 155, 5);" class="me-4"><input type="checkbox" class="form-checkbox" value="gender">Female</span>
+            </div>
+            <div class="d-flex align-items-center mt-2">
+                <span class="col-3 ms-2" style="color: rgb(185, 155, 5);">Country</span>
+                <input type="text" list="country" class="form-control me-2" style="width: 350px;">
+                <datalist id="country">
+                    <option>USA</option>
+                    <option>India</option>
+                    <option>UK</option>
+                </datalist>
+            </div>
+    
+            <div class="d-flex align-items-center mt-2">
+                <span class="col-3 ms-2" style="color: rgb(185, 155, 5);">E-mail</span>
+                <input type="text" class="col-8 form-control " placeholder="Enter E-mail..." style="width: 350px;">
+            </div>
+            <div class="d-flex align-items-center mt-2">
+                <span class="col-3 ms-2" style="color: rgb(185, 155, 5);">Phone</span>
+                <input type="text" class="col-8 form-control " placeholder="Enter Phone No..." style="width: 350px;">
+            </div>
+            <div class="d-flex align-items-center mt-2">
+                <span class="col-3 ms-2" style="color: rgb(185, 155, 5);">Password</span>
+                <input type="text" class="col-8 form-control " style="width: 350px;">
+            </div>
+            <div class="d-flex align-items-center mt-2">
+                <span class="col-3 ms-2" style="color: rgb(185, 155, 5);">Confirm Password</span>
+                <input type="text" class="col-8 form-control " style="width: 350px;">
+            </div>
+            <div class="mt-2" style="margin-left: 160px;">
+                <span style="color: rgb(185, 155, 5);">
+                    <input type="checkbox"> I agree tho the Terms of Use
+                </span>
+            </div>
+        </div>
+
+        <div class="form-footer d-flex align-items-center mt-2" style="background-color: gold; font-weight: bold; height: 50px; font-size: 20px;">
+            <button class="btn btn-success" style="margin-left: 320px;">Submit</button>
+            <button class="btn btn-danger ms-2">Cancel</button>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
